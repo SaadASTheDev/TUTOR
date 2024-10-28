@@ -1,38 +1,29 @@
-# Core dependencies
-pip>=23.3.2
-setuptools>=69.0.3
-wheel>=0.42.0
+# Web framework
+Flask==2.2.5
+Werkzeug==2.2.3
+gunicorn==20.1.0
 
-# Web Framework
-flask>=3.0.0
-werkzeug>=3.0.1
+# Environment variables
+python-dotenv==1.0.0
 
-# ML & Audio Processing
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch>=2.2.0
-torchaudio>=2.2.0
-transformers>=4.37.2
-soundfile>=0.12.1
-numpy>=1.24.3
+# Transformers (without torch)
+transformers==4.33.2
 
-# PDF Processing
-PyPDF2>=3.0.1
+# PDF processing
+PyPDF2==3.0.1
+pdfminer.six==20221105
 
-# LangChain & AI
-langchain>=0.1.0
-langchain-core>=0.1.22
-langchain-google-genai>=0.0.5
-google-generativeai>=0.3.1
-google-cloud-aiplatform>=1.36.4
+# LangChain
+langchain==0.0.252
+langchain-core==0.0.2
+langchain-google-genai==0.0.2
 
-# Utilities
-python-dotenv>=1.0.0
-requests>=2.31.0
-pathlib>=1.0.1
+# Audio processing
+soundfile==0.12.1
+librosa==0.10.0
+scipy==1.10.1
 
-# Optional Performance Improvements
-accelerate>=0.27.2
-optimum>=1.16.1
-bitsandbytes>=0.42.0
-scipy>=1.12.0
-
+# Core utilities
+numpy==1.23.5
+requests==2.31.0
+pathlib2==2.3.7.post1

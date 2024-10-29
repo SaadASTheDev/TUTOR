@@ -1,4 +1,9 @@
-<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Tutor Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <header>
@@ -6,7 +11,7 @@
     </header>
     <div class="sidebar">
         <a href="{{ url_for('index') }}">Home</a>
-        <a href="{{ url_for('audio') }}">Upload Audio</a>
+        {# <a href="{{ url_for('audio') }}">Upload Audio</a> #}
         <a href="{{ url_for('pdf') }}">Upload PDFs</a>
         <a href="{{ url_for('general') }}">General Questions</a>
         <a href="{{ url_for('apikey') }}">API Keys</a>

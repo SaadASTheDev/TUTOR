@@ -1,29 +1,8 @@
-# Web framework
-Flask==2.2.5
-Werkzeug==2.2.3
-gunicorn==20.1.0
-
-# Environment variables
-python-dotenv==1.0.0
-
-# Transformers (without torch)
-transformers==4.33.2
-
-# PDF processing
-PyPDF2==3.0.1
-pdfminer.six==20221105
-
-# LangChain
-langchain==0.0.252
-langchain-core==0.0.2
-langchain-google-genai==0.0.2
-
-# Audio processing
-soundfile==0.12.1
-librosa==0.10.0
-scipy==1.10.1
-
-# Core utilities
-numpy==1.23.5
-requests==2.31.0
-pathlib2==2.3.7.post1
+Flask
+PyPDF2
+langchain
+langchain-google-genai
+numpy
+requests
+python-dotenv
+werkzeug
